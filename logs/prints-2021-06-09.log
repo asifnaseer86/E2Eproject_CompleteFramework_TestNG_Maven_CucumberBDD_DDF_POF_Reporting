@@ -1,0 +1,5 @@
+10:41:33.979 [TestNG] INFO  Cyborgenisys.E2EProject.HomePage - Entered password in login page password input field
+10:41:33.981 [TestNG] INFO  Cyborgenisys.E2EProject.HomePage - non restriced user
+10:41:34.223 [TestNG] INFO  Cyborgenisys.E2EProject.HomePage - Clicked on login button to validate username & password
+10:41:34.508 [TestNG] INFO  Cyborgenisys.E2EProject.HomePage - Clicked on forget password button to navigate to forget password page
+10:41:34.599 [TestNG] INFO  Cyborgenisys.E2EProject.HomePage - Entered email in forget password page email input field

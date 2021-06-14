@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-13T14:52:22Z" name="Suite" finished-at="2021-06-13T14:53:11Z" duration-ms="48721">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@17a87e37]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-06-13T14:52:22Z" name="Validating Navigation bar in home page" finished-at="2021-06-13T14:53:11Z" duration-ms="48721">
+      <class name="CucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:CucumberOptions.TestRunner@17a87e37]" started-at="2021-06-13T19:52:22Z" name="setUpClass" finished-at="2021-06-13T19:52:22Z" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@17a87e37]" started-at="2021-06-13T19:52:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-13T19:52:47Z" duration-ms="24608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test validating login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login into Apllication]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@17a87e37]" started-at="2021-06-13T19:52:47Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-13T19:53:11Z" duration-ms="23623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test validating login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login into Apllication]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestRunner@17a87e37]" started-at="2021-06-13T19:53:11Z" name="tearDownClass" finished-at="2021-06-13T19:53:11Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberOptions.TestRunner -->
+    </test> <!-- Validating Navigation bar in home page -->
+  </suite> <!-- Suite -->
+</testng-results>

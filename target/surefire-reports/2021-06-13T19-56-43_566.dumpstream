@@ -1,0 +1,4 @@
+# Created at 2021-06-13T19:56:45.285
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Cyborg Tech\Automation Testing Selenium\Eclipse-WorkSpace\E2EProject\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

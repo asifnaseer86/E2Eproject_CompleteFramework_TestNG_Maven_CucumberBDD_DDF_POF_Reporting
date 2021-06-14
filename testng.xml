@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests"> <!-- parallel="tests" -->
+<listeners>
+	<listener class-name="Cyborgenisys.E2EProject.Listeners"/>
+</listeners>
+  	<test name="Validating Navigation bar in home page">
+	    <classes>
+	      <class name="Cyborgenisys.E2EProject.ValidateNavigationBar"/>
+	    </classes>
+  	</test> <!-- Test -->
+    <test name="Validating User Login">
+    <classes>
+      <class name="Cyborgenisys.E2EProject.HomePage"/>
+    </classes>
+  </test>
+    <test name="Validating Title in home page">
+    <classes>
+      <class name="Cyborgenisys.E2EProject.ValidateTile"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

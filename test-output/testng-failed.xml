@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Cyborgenisys.E2EProject.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="Validating Title in home page(failed)">
+    <classes>
+      <class name="Cyborgenisys.E2EProject.ValidateTile">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializer"/>
+          <include name="homePageTile"/>
+        </methods>
+      </class> <!-- Cyborgenisys.E2EProject.ValidateTile -->
+      <class name="Cyborgenisys.E2EProject.HomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializer"/>
+        </methods>
+      </class> <!-- Cyborgenisys.E2EProject.HomePage -->
+      <class name="Cyborgenisys.E2EProject.ValidateNavigationBar">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializer"/>
+        </methods>
+      </class> <!-- Cyborgenisys.E2EProject.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Validating Title in home page(failed) -->
+</suite> <!-- Failed suite [Suite] -->
